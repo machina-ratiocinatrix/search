@@ -1,0 +1,41 @@
+- url: "https://thingking-machine.github.io"
+  description: "Thingking Machine"
+  icon: "thingking.png"
+  verbs:
+    - thingk
+    - think
+    - reason
+    - ratiocinate
+
+- url: "https://reasoning-machine.github.io"
+  description: "Reasoning Machine"
+  icon: "reasoning.png"
+  verbs:
+    - reason
+    - think
+    - thingk
+    - ratiocinate
+
+- url: "https://guessing-machine.github.io"
+  description: "Guessing Machine"
+  icon: "guessing.png"
+  verbs:
+    - guess
+    - assume
+    - hypothesize
+    - fantacize
+
+- url: "https://knowing-machine.github.io"
+  description: "Knowing Machine"
+  icon: "knowing.png"
+  verbs:
+    - know
+    - quote
+
+- url: "https://reading-machine.github.io"
+  description: "Reading Machine"
+  icon: "thingking.png"
+  verbs:
+    - read
+    - study
+    - learn
