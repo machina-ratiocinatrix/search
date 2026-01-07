@@ -36,7 +36,7 @@ title: Search
         return;
       }
 
-      let html = '<h2>' + escapeHtml(searchQuery) + '</h2><ul style="list-style-type: none; padding: 0;">';
+      let html = '<h2 style="text-align: center;">' + escapeHtml(searchQuery) + '</h2><ul style="list-style-type: none; padding: 0;">';
       
       results.forEach(function(item) {
         const label = item.description ? item.description : item.url;
