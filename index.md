@@ -40,19 +40,23 @@ title: Search
       
       results.forEach(function(item) {
         const label = item.description ? item.description : item.url;
-        // Prepend baseurl to the icon path
         const iconPath = baseUrl + '/assets/icons/' + item.icon;
-        const iconHtml = item.icon ? '<img src="' + iconPath + '" alt="" style="width:48px;height:48px;vertical-align:middle;margin-right:10px;">' : '';
-        const verbsHtml = item.verbs ? '<br><small>Verbs: ' + item.verbs.join(', ') + '</small>' : '';
         
-        html += '<li style="margin-bottom: 20px;">' + 
-                  '<a href="' + item.url + '" style="text-decoration: none; display: flex; align-items: center;">' + 
-                    iconHtml + 
-                    '<div>' +
-                      '<strong>' + label + '</strong>' +
-                      verbsHtml +
-                    '</div>' +
-                  '</a>' + 
+        // Icon wrapped in a link
+        const iconHtml = item.icon ? 
+            '<a href="' + item.url + '" style="margin-right: 10px; text-decoration: none;">' +
+            '<img src="' + iconPath + '" alt="" style="width:48px;height:48px;vertical-align:middle;">' +
+            '</a>' : '';
+            
+        // Verbs list (not clickable, black font)
+        const verbsHtml = item.verbs ? '<div style="color: black; font-size: small;">Verbs: ' + item.verbs.join(', ') + '</div>' : '';
+        
+        html += '<li style="margin-bottom: 20px; display: flex; align-items: center;">' + 
+                  iconHtml + 
+                  '<div>' +
+                    '<a href="' + item.url + '"><strong>' + label + '</strong></a>' +
+                    verbsHtml +
+                  '</div>' +
                 '</li>';
       });
       

@@ -23,7 +23,8 @@
     - guess
     - assume
     - hypothesize
-    - fantacize
+    - fantasize
+    - imagine
 
 - url: "https://knowing-machine.github.io"
   description: "Knowing Machine"
@@ -31,6 +32,8 @@
   verbs:
     - know
     - quote
+    - retrieve
+    - recall
 
 - url: "https://reading-machine.github.io"
   description: "Reading Machine"
@@ -39,3 +42,13 @@
     - read
     - study
     - learn
+    - analyze
+
+- url: "https://criticizing-machine.github.io"
+  description: "Criticizing Machine"
+  icon: "criticizing.png"
+  verbs:
+    - criticize
+    - object
+    - dispute
+    - impugn
