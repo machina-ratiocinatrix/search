@@ -7,6 +7,7 @@
     - reason
     - ratiocinate
     - ponder
+    - all
 
 - url: "https://reasoning-machine.github.io"
   description: "Reasoning Machine"
@@ -17,6 +18,7 @@
     - thingk
     - ratiocinate
     - ponder
+    - all
 
 - url: "https://guessing-machine.github.io"
   description: "Guessing Machine"
@@ -27,6 +29,7 @@
     - hypothesize
     - fantasize
     - imagine
+    - all
 
 - url: "https://knowing-machine.github.io"
   description: "Knowing Machine"
@@ -36,6 +39,7 @@
     - quote
     - retrieve
     - recall
+    - all
 
 - url: "https://reading-machine.github.io"
   description: "Reading Machine"
@@ -45,6 +49,7 @@
     - study
     - learn
     - analyze
+    - all
 
 - url: "https://analyzing-machine.github.io"
   description: "Analyzing Machine"
@@ -53,6 +58,7 @@
     - analyze
     - inquire
     - impugn
+    - all
 
 - url: "https://criticizing-machine.github.io"
   description: "Criticizing Machine"
@@ -62,6 +68,7 @@
     - object
     - dispute
     - impugn
+    - all
 
 - url: "https://hypothesizing-machine.github.io"
   description: "Hypothesizing Machine"
@@ -70,36 +77,42 @@
     - hypothesize
     - imagine
     - guess
+    - all
 
 - url: "https://abstracting-machine.github.io"
   description: "Abstracting Machine"
   icon: "abstracting.png"
   verbs:
     - abstract
+    - all
 
 - url: "https://attending-machine.github.io"
   description: "Attending Machine"
   icon: "attending.png"
   verbs:
     - attend
+    - all
 
 - url: "https://answering-machine.github.io"
   description: "Answering Machine"
   icon: "answering.png"
   verbs:
     - answer
+    - all
 
 - url: "https://coordinating-machine.github.io"
   description: "Coordinating Machine"
   icon: "coordinating.png"
   verbs:
     - coordinate
+    - all
 
 - url: "https://judging-machine.github.io"
   description: "Judging Machine"
   icon: "judging.png"
   verbs:
     - judge
+    - all
 
 - url: "https://memory-machine.github.io"
   description: "Memory Machine"
@@ -110,12 +123,14 @@
     - recall
     - memorize
     - forget
+    - all
 
 - url: "https://questioning-machine.github.io"
   description: "Questioning Machine"
   icon: "questioning.png"
   verbs:
     - question
+    - all
 
 - url: "https://ratiocinating-machine.github.io"
   description: "Ratiocinating Machine"
@@ -126,6 +141,7 @@
     - thingk
     - ratiocinate
     - ponder
+    - all
 
 - url: "https://writing-machine.github.io"
   description: "Writing Machine"
@@ -134,3 +150,4 @@
     - write
     - describe
     - rephrase
+    - all
