@@ -10,6 +10,7 @@ title: Search
 <script>
   // Inject Jekyll data into JavaScript
   const utilities = {{ site.data.utilities | jsonify }};
+  const baseUrl = "{{ site.baseurl }}";
 
   document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -39,7 +40,9 @@ title: Search
       
       results.forEach(function(item) {
         const label = item.description ? item.description : item.url;
-        const iconHtml = item.icon ? '<img src="/assets/icons/' + item.icon + '" alt="" style="width:48px;height:48px;vertical-align:middle;margin-right:10px;">' : '';
+        // Prepend baseurl to the icon path
+        const iconPath = baseUrl + '/assets/icons/' + item.icon;
+        const iconHtml = item.icon ? '<img src="' + iconPath + '" alt="" style="width:48px;height:48px;vertical-align:middle;margin-right:10px;">' : '';
         const verbsHtml = item.verbs ? '<br><small>Verbs: ' + item.verbs.join(', ') + '</small>' : '';
         
         html += '<li style="margin-bottom: 20px;">' + 
