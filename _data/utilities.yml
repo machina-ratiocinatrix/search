@@ -52,3 +52,11 @@
     - object
     - dispute
     - impugn
+
+- url: "https://hypothesizing-machine.github.io"
+  description: "Hypothesizing Machine"
+  icon: "hypothesizing.png"
+  verbs:
+    - hypothesize
+    - imagine
+    - guess
