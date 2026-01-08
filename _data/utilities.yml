@@ -214,3 +214,22 @@
     - outline
     - reduce
     - all
+
+- url: "https://strategy-machine.github.io"
+  description: "Strategy Machine"
+  icon: "strategy.png"
+  verbs:
+    - strategize
+    - plan
+    - prepare
+    - organize
+    - design
+    - plot
+    - all
+
+- url: "https://semantic-machine.github.io"
+  description: "Semantic Machine"
+  icon: "semantic.png"
+  verbs:
+    - semanticize
+    - all
