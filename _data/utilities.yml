@@ -7,7 +7,7 @@
     - reason
     - ratiocinate
     - ponder
-    - all
+    - *
 
 - url: "https://reasoning-machine.github.io"
   description: "Reasoning Machine"
