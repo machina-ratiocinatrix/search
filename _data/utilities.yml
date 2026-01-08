@@ -21,6 +21,8 @@
     - think
     - thingk
     - ratiocinate
+    - understand
+    - decide
     - ponder
     - all
 
@@ -30,8 +32,11 @@
   verbs:
     - guess
     - assume
+    - suppose
+    - suspect
+    - think
+    - presume
     - hypothesize
-    - fantasize
     - speculate
     - imagine
     - all
@@ -41,8 +46,8 @@
   icon: "knowing.png"
   verbs:
     - know
-    - quote
-    - retrieve
+    - understand
+    - discern
     - recall
     - all
 
@@ -54,7 +59,7 @@
     - think
     - cogitate
     - consider
-    - analyze
+    - reason
     - realize
     - speculate
     - all
@@ -64,8 +69,11 @@
   icon: "analyzing.png"
   verbs:
     - analyze
-    - inquire
-    - impugn
+    - dissect
+    - investigate
+    - examine
+    - assess
+    - evaluate
     - all
 
 - url: "https://criticizing-machine.github.io"
@@ -73,6 +81,7 @@
   icon: "criticizing.png"
   verbs:
     - criticize
+    - evaluate
     - object
     - dispute
     - impugn
@@ -83,9 +92,13 @@
   icon: "hypothesizing.png"
   verbs:
     - hypothesize
+    - assume
+    - presume
     - speculate
     - imagine
     - guess
+    - believe
+    - think
     - all
 
 - url: "https://abstracting-machine.github.io"
@@ -93,6 +106,9 @@
   icon: "abstracting.png"
   verbs:
     - abstract
+    - separate
+    - remove
+    - summarize
     - all
 
 - url: "https://attending-machine.github.io"
@@ -100,6 +116,8 @@
   icon: "attending.png"
   verbs:
     - attend
+    - heed
+    - see
     - all
 
 - url: "https://answering-machine.github.io"
@@ -107,6 +125,7 @@
   icon: "answering.png"
   verbs:
     - answer
+    - reply
     - all
 
 - url: "https://coordinating-machine.github.io"
@@ -114,6 +133,8 @@
   icon: "coordinating.png"
   verbs:
     - coordinate
+    - harmonize
+    - reconcile
     - all
 
 - url: "https://judging-machine.github.io"
@@ -121,6 +142,10 @@
   icon: "judging.png"
   verbs:
     - judge
+    - decide
+    - opine
+    - think
+    - guess
     - all
 
 - url: "https://memory-machine.github.io"
@@ -139,16 +164,22 @@
   icon: "questioning.png"
   verbs:
     - question
+    - challenge
+    - dispute
+    - doubt
+    - inquire
+    - interrogate
     - all
 
 - url: "https://ratiocinating-machine.github.io"
   description: "Ratiocinating Machine"
   icon: "ratiocinating.png"
   verbs:
+    - ratiocinate
+    - recon
     - reason
     - think
     - thingk
-    - ratiocinate
     - speculate
     - ponder
     - all
@@ -158,6 +189,7 @@
   icon: "writing.png"
   verbs:
     - write
+    - compose
     - describe
     - rephrase
     - all
