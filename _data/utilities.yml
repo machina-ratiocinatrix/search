@@ -193,3 +193,24 @@
     - describe
     - rephrase
     - all
+
+- url: "https://understanding-machine.github.io"
+  description: "Understanding Machine"
+  icon: "understanding.png"
+  verbs:
+    - understand
+    - grasp
+    - infer
+    - comprehend
+    - appreciate
+    - all
+
+- url: "https://summarizing-machine.github.io"
+  description: "Summarizing Machine"
+  icon: "summarizing.png"
+  verbs:
+    - summarize
+    - digest
+    - outline
+    - reduce
+    - all
