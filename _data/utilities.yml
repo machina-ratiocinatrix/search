@@ -1,3 +1,37 @@
+- url: "https://understanding-machine.github.io"
+  description: "Understanding Machine"
+  icon: "understanding.png"
+  verbs:
+    - understand
+    - comprehend
+    - grasp
+    - infer
+    - all
+
+- url: "https://analyzing-machine.github.io"
+  description: "Analyzing Machine"
+  icon: "analyzing.png"
+  verbs:
+    - analyze
+    - dissect
+    - investigate
+    - examine
+    - assess
+    - evaluate
+    - all
+
+- url: "https://strategy-machine.github.io"
+  description: "Strategy Machine"
+  icon: "strategy.png"
+  verbs:
+    - strategize
+    - plan
+    - prepare
+    - organize
+    - design
+    - plot
+    - all
+
 - url: "https://thingking-machine.github.io"
   description: "Thingking Machine"
   icon: "thingking.png"
@@ -62,18 +96,6 @@
     - reason
     - realize
     - speculate
-    - all
-
-- url: "https://analyzing-machine.github.io"
-  description: "Analyzing Machine"
-  icon: "analyzing.png"
-  verbs:
-    - analyze
-    - dissect
-    - investigate
-    - examine
-    - assess
-    - evaluate
     - all
 
 - url: "https://criticizing-machine.github.io"
@@ -194,17 +216,6 @@
     - rephrase
     - all
 
-- url: "https://understanding-machine.github.io"
-  description: "Understanding Machine"
-  icon: "understanding.png"
-  verbs:
-    - understand
-    - grasp
-    - infer
-    - comprehend
-    - appreciate
-    - all
-
 - url: "https://summarizing-machine.github.io"
   description: "Summarizing Machine"
   icon: "summarizing.png"
@@ -213,18 +224,6 @@
     - digest
     - outline
     - reduce
-    - all
-
-- url: "https://strategy-machine.github.io"
-  description: "Strategy Machine"
-  icon: "strategy.png"
-  verbs:
-    - strategize
-    - plan
-    - prepare
-    - organize
-    - design
-    - plot
     - all
 
 - url: "https://semantic-machine.github.io"
