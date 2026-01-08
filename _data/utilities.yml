@@ -28,6 +28,7 @@
     - assume
     - hypothesize
     - fantasize
+    - speculate
     - imagine
     - all
 
@@ -75,6 +76,7 @@
   icon: "hypothesizing.png"
   verbs:
     - hypothesize
+    - speculate
     - imagine
     - guess
     - all
@@ -140,6 +142,7 @@
     - think
     - thingk
     - ratiocinate
+    - speculate
     - ponder
     - all
 
